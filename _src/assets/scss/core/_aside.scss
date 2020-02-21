@@ -7,26 +7,13 @@
   height: 427px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(8, 1fr);
+  justify-content: center;
+  align-items: center;
 }
 
-.aside-title {
-  color: black;
-  font-size: 32px;
-}
-
-.aside-subtitle {
-  color: black;
-  font-size: 24px;
-}
-
-.aside-text {
-  color: black;
-  font-size: 20px;
-}
 .item1 {
   grid-column: span 3;
   grid-row: span 3;
-  align-self: center;
   text-align: center;
   justify-content: center;
 }
@@ -34,17 +21,26 @@
 .item2 {
   grid-column: span 1;
   grid-row: span 2;
+  display: grid;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .item3 {
   grid-column: span 1;
   grid-row: span 2;
+  display: grid;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .item4 {
   grid-column: span 1;
   grid-row: span 2;
+  display: grid;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .item5 {
@@ -53,13 +49,31 @@
   width: 255px;
   height: 45px;
   background: $colorButtons;
-  align-self: center;
-  justify-self: center;
-  vertical-align: middle;
   border-radius: 22.5px;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  font-family: "Roboto", Medium;
 }
 
-.aside-button-container {
-  text-align: center;
-  vertical-align: text-bottom;
+.aside {
+  &-title {
+    font-family: $fontPrimary;
+    color: black;
+    font-size: 32px;
+  }
+  &-subtitle {
+    color: black;
+    font-size: 24px;
+    font-family: $fontPrimary;
+  }
+  &-text {
+    padding: 26.2px;
+    width: 358.5px;
+    color: black;
+    font-size: 20px;
+    font-family: "Roboto";
+  }
 }
