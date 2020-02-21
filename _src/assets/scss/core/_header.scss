@@ -1,16 +1,11 @@
 .header {
-  &-container {
-    color: $colorWhite;
-    background: url(../assets/images/cover.jpg) 50% no-repeat;
-    background-size: cover;
-  }
   &-contain {
+    color: $colorWhite;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: flex-end;
-    background: coral;
     background: url(../images/cover.jpg) 50% no-repeat;
     background-size: cover;
     text-align: center;

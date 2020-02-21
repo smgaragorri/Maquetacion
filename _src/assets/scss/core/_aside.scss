@@ -3,7 +3,7 @@
 .aside-container {
   display: grid;
   background-color: $colorTerciary;
-  width: 100vw;
+
   height: 427px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(8, 1fr);
