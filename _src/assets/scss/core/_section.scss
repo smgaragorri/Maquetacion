@@ -1,6 +1,7 @@
 // SECTION
 
 .section-container {
+  width: 100vw;
   height: max-content;
   margin: 60px 275px 60px 275px;
 }
@@ -36,6 +37,10 @@
   width: 160px;
   height: 45px;
   border: 2px solid $colorButtons;
-  border-radius: 22.5%;
+  border-radius: 22.5px;
   margin-bottom: 60px;
+  transition-duration: 1s;
+  &:hover {
+    box-shadow: 0px 0px 15px 15px #f25e0294;
+  }
 }
