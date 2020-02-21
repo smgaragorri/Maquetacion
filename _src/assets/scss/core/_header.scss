@@ -1,0 +1,50 @@
+.header-container {
+  color: $colorWhite;
+  height: 100vh;
+  background: url(../assets/images/cover.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.header-title {
+  font-size: 100px;
+}
+.header-text {
+  font-size: 24px;
+}
+.header-contain {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: coral;
+  background: url(../images/cover.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.header-contain {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.header-menu-container {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  background: $color-secondary;
+}
+
+.header-arrow {
+  display: flex;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: white;
+}

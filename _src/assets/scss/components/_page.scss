@@ -5,27 +5,6 @@ body {
   margin: 0px;
 }
 
-// HEADER
-.header-container {
-  height: 100vh;
-}
-
-.header-menu {
-  display: flex;
-  position: fixed;
-  background: fuchsia;
-}
-.header-contain {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.header-arrow {
-  background-color: orange;
-}
-
 // SECTION
 
 .section-container {
