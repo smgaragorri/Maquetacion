@@ -2,17 +2,10 @@
 @import "components/page";
 @import "core/header";
 @import "core/section";
+@import "core/aside";
 @import "core/footer";
 
 // Borrar estilos a partir de aquí
-
-section {
-  border: 5px solid red;
-}
-
-aside {
-  border: 5px solid greenyellow;
-}
 
 footer {
   border: 5px solid fuchsia;

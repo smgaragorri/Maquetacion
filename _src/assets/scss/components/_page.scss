@@ -11,51 +11,6 @@ body {
   height: 360px;
 }
 
-// ASIDE
-
-.aside-container {
-  display: grid;
-  width: 100vw;
-  height: 427px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-}
-
-.item1 {
-  grid-column: span 3;
-  grid-row: span 3;
-  background-color: fuchsia;
-  align-self: center;
-  text-align: center;
-}
-
-.item2 {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: coral;
-  text-align: center;
-}
-.item3 {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: greenyellow;
-  text-align: center;
-}
-.item4 {
-  grid-column: span 1;
-  grid-row: span 2;
-  background-color: yellow;
-  text-align: center;
-}
-
-.item5 {
-  grid-column: span 3;
-  grid-row: span 3;
-  background-color: fuchsia;
-  text-align: center;
-  align-self: center;
-}
-
 // FOOTER
 .footer-content {
   display: flex;

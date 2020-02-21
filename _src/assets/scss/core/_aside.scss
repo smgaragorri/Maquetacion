@@ -1,0 +1,60 @@
+// ASIDE
+
+.aside-container {
+  display: grid;
+  background-color: $colorTerciary;
+  width: 100vw;
+  height: 427px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+}
+
+.aside-title {
+  color: black;
+  font-size: 32px;
+}
+
+.aside-subtitle {
+  color: black;
+  font-size: 24px;
+}
+
+.aside-text {
+  color: black;
+  font-size: 20px;
+}
+
+.item1 {
+  grid-column: span 3;
+  grid-row: span 3;
+  align-self: center;
+  text-align: center;
+}
+
+.item2 {
+  grid-column: span 1;
+  grid-row: span 2;
+  text-align: center;
+}
+.item3 {
+  grid-column: span 1;
+  grid-row: span 2;
+  text-align: center;
+}
+.item4 {
+  grid-column: span 1;
+  grid-row: span 2;
+  text-align: center;
+}
+
+.item5 {
+  grid-column: span 3;
+  grid-row: span 3;
+  text-align: center;
+  align-self: center;
+  color: $colorWhite;
+}
+
+.aside.button.container {
+  background-color: $colorButtons;
+}
