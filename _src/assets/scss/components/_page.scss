@@ -10,36 +10,3 @@ body {
 .section-container {
   height: 360px;
 }
-
-// FOOTER
-.footer-content {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer-navs {
-  display: flex;
-  flex-direction: row;
-}
-
-.footer-copy {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer-arrow-container {
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-}
-.footer-arrow-content {
-  width: 45px;
-  height: 45px;
-  border-radius: 50px;
-  transform: translateY(-55%);
-  background-color: coral;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

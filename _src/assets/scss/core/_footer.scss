@@ -1,1 +1,35 @@
+.footer-content {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: center;
+  background: $colorPrimary;
+  color: $colorWhite;
+}
 
+.footer-navs {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-copy {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-arrow-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  background: $colorPrimary;
+}
+.footer-arrow-content {
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  transform: translateY(-55%);
+  background-color: $colorWhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
