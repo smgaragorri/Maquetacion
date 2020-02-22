@@ -52,6 +52,25 @@
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    &:hover {
+      animation-name: up;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+
+@keyframes up {
+  0% {
+    transform: translate(0px, -52%);
+  }
+
+  50% {
+    transform: translate(0px, -60%);
+  }
+
+  100% {
+    transform: translate(0px, -52%);
   }
 }
 
