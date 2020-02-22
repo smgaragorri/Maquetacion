@@ -3,7 +3,6 @@
 .aside-container {
   display: grid;
   background-color: $colorTerciary;
-
   height: 427px;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(9, 1fr);
@@ -44,40 +43,50 @@
 }
 
 .item5 {
-  grid-column: 2 / 3;
-  grid-row: span 3;
-  width: 255px;
-  height: 45px;
-  background: $colorButtons;
-  border-radius: 22.5px;
   display: grid;
   text-align: center;
   justify-content: center;
   justify-self: center;
   align-items: center;
-  font-family: "Roboto", Medium;
+  grid-column: 2 / 3;
+  grid-row: span 3;
+  width: 255px;
+  height: 45px;
+  margin-bottom: 60px;
+  margin-top: 33.8px;
+  background: $colorButtons;
+  border-radius: 22.5px;
+  font-family: $fontSecondary;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: capitalize;
+  line-height: 2.25;
   transition: all 1s ease;
   &:hover {
-    background: black;
+    background: $colorPrimary;
+    box-shadow: 3px 3px 25px #81a3ec inset;
   }
 }
 
 .aside {
   &-title {
+    height: 45px;
     font-family: $fontPrimary, Bold;
     font-size: 32px;
-    line-height: 1.25;
+    line-height: 1.41;
   }
   &-subtitle {
     width: 350px;
+    height: 30px;
     font-size: 24px;
     font-family: $fontPrimary, Bold;
+    line-height: 1.25;
   }
   &-text {
     padding: 26.2px;
     line-height: 1.5;
     width: 358.5px;
     font-size: 20px;
-    font-family: "Roboto";
+    font-family: $fontSecondary;
   }
 }
