@@ -1,6 +1,6 @@
-// ASIDE
+// article
 
-.aside-container {
+.article-container {
   display: grid;
   background-color: $colorTerciary;
   height: 427px;
@@ -66,7 +66,7 @@
   }
 }
 
-.aside {
+.article {
   &-title {
     height: 45px;
     font-family: $fontPrimary, Bold;
@@ -90,7 +90,7 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
-  .aside {
+  .article {
     &-container {
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
@@ -128,7 +128,7 @@
 }
 
 @media all and (max-width: 768px) {
-  .aside {
+  .article {
     &-container {
       height: 624px;
       grid-template-columns: repeat(3, 1fr);
