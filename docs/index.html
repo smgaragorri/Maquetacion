@@ -7,35 +7,137 @@
         <title>Adalab Web Starter Kit</title>
         <link rel="icon" href="./favicon.png" />
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
-        rel="stylesheet">
+        rel="stylesheet" />
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:700&display=swap");
+        </style>
+        <style>
+            @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+        </style>
         <link rel="stylesheet" href="./assets/css/main.css" />
     </head>
     
     <body>
-        <div class="page">
-            <header class="page__header">
-                <img src="./assets/images/logo-adalab.png" alt="Adalab">
-                 <h1>Bienvenidos a Adalab</h1>
+        <div>
+            <header> <a name="hero" id="hero"></a>
 
+                <div class="header-menu-container">
+                    <!-- ICONO DE HAMBURGUESA -->
+                    <div id="menu" class="header-menu-content"> <a href="https://adalab.es/" target="_blank"><img src="../assets/images/ico-menu.svg" alt="Menu"/></a>
+
+                    </div>
+                </div>
+                <div class="header-container">
+                    <div class="header-contain">
+                         <h1 class="header-title"><span>Anonymous</span> <span>Proxy</span></h1>
+
+                        <p class="header-text">In hac habitasse platea dictumst.</p>
+                        <!-- ICONO DE LA FLECHA --> <a class="header-arrow" href="#article">
+        <img src="../assets/images/ico-scroll-down.svg" alt="Flecha hacia '3 Reasons To Purchase'" />
+      </a>
+
+                    </div>
+                </div>
             </header>
-            <main class="page__main">
-                 <h2>Este es el starter kit de Adalab</h2>
+            <section>
+                <div class="section-container">
+                    <div class="section-content"> <small class="section-small-text">Insomnia Tips</small>
 
-                <p>Lo usamos para aprender:</p>
-                <ul>
-                    <li>Sass</li>
-                    <li>HTML partials</li>
-                    <li>Gulp</li>
-                    <li>y muchas cosas más</li>
-                </ul>
-            </main> <a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a>
+                         <h2 class="section-title">Looking Through A Window</h2>
 
-            <a
-            class="link__github" href="https://github.com" target="_blank">GitHub</a>
-                <footer class="page__footer"> <small>&copy; Todos los derechos reservados</small>
+                        <p class="section-text">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+                            luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+                        <!-- BOTON
+                        DE GO -->
+                        <div class="section-button"><a href=""></a>Go</div>
+                    </div>
+                </div>
+            </section>
+            <article> <a name="article" id="article"></a>
 
-                </footer>
-        </div>
-    </body>
+                <div class="article-container">
+                    <div class="item1">
+                         <h2 class="article-title">3 Reasons To Purchase</h2>
 
+                    </div>
+                    <div class="item2">
+                         <h3 class="article-subtitle">Ut sed metus</h3>
+
+                        <p class="article-text">Lorem ipsum dolor sit amet, consecteur.</p>
+                    </div>
+                    <div class="item3">
+                         <h3 class="article-subtitle">Curabitur ac erat</h3>
+
+                        <p class="article-text">Mauris mattis urna quis lorem molestie.</p>
+                    </div>
+                    <div class="item4">
+                         <h3 class="article-subtitle">Morbi dictum</h3>
+
+                        <p class="article-text">Aliquam in dolor et dolor tincidunt.</p>
+                    </div>
+                    <div class="item5">
+                        <!-- botón naranja de More Reasons --> <a class="article-button-text" href="" style="text-decoration: none; color: white">more reasons</a>
+
+                    </div>
+                </div>
+            </article>
+            <footer>
+                <!-- FLECHA ARRIBA - IMAGEN CENTRADA Y TRASLADADA -->
+                <div class="footer-arrow-container">
+                    <div class="footer-arrow-content"> <a class="footer-arrow" href="#hero"><img src="../assets/images/ico-arrow.svg" alt=""/></a>
+
+                    </div>
+                </div>
+                <!-- NAVEGADORES FOOTER. Para que el copyright quede a la izquierda en
+                mobile, meterle un flex-direction:column reverse A los navegadores se les
+                deja caer, deberían posicionarse solos en mobile. En tablet, se ponen ambos
+                divs en row-->
+                <div class="footer-content">
+                    <div class="footer-copy"> <span>
+        ©2017
+      </span>
+ <span>we
+        <small class="heart">&#10084;</small>
+        components</span
+      >
+    </div>
+    <div class="footer-navs">
+      <nav class="articles">
+        <ul>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Articles</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Books</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Events</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Reasons</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Tips</a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="social">
+        <ul>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Twitter</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Instagram</a>
+          </li>
+          <li style="list-style-type: none;">
+            <a href="https://adalab.es/" alt="Link to Adalab" title="Link to Adalab" style="text-decoration: none; color: white;">Mastodon.social</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+    </div>
+  </body>
 </html>
