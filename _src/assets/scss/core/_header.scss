@@ -1,3 +1,5 @@
+// HEADER
+
 .header {
   &-contain {
     color: $colorWhite;
@@ -44,6 +46,27 @@
     border-radius: 50%;
     background-color: $colorWhite;
     margin-bottom: 13px;
+    &:hover {
+      animation-name: down;
+      animation-duration: 1s;
+      animation-iteration-count: infinite;
+    }
+  }
+  &-menu {
+    padding: 12px 14px 12px 14px;
+  }
+}
+@keyframes down {
+  0% {
+    transform: translate(0px, +5%);
+  }
+
+  50% {
+    transform: translate(0px, -10%);
+  }
+
+  100% {
+    transform: translate(0px, +5%);
   }
 }
 

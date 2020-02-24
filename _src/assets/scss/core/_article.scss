@@ -1,4 +1,4 @@
-// article
+// ARTICLE
 
 .article-container {
   display: grid;
@@ -72,6 +72,7 @@
     font-family: $fontPrimary, Bold;
     font-size: 32px;
     line-height: 1.41;
+    text-transform: capitalize;
   }
   &-subtitle {
     width: 350px;
@@ -87,43 +88,40 @@
     font-size: 20px;
     font-family: $fontSecondary;
   }
+  &-button-text {
+    padding-left: 62px;
+    padding-right: 62px;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1200px) {
   .article {
     &-container {
-      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(3, 1fr);
     }
     &-title {
-      height: 45px;
       font-size: 26px;
       line-height: 1.73;
     }
     &-subtitle {
       width: 210px;
-      height: 30px;
-      font-size: 24px;
-      line-height: 1.25;
     }
     &-text {
       padding: 0;
       width: 212.3px;
       height: 68px;
-      line-height: 1.5;
-      font-size: 20px;
+    }
+    &-button-text {
+      padding-left: 40px;
+      padding-right: 40px;
     }
   }
   .item4 {
     grid-column: span 1;
-    grid-row: span 3;
-    justify-content: center;
   }
   .item5 {
     margin-top: 60px;
-    margin-bottom: 60px;
     width: 210px;
-    height: 45px;
   }
 }
 
@@ -131,7 +129,6 @@
   .article {
     &-container {
       height: 624px;
-      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(5, 1fr);
     }
     &-title {
@@ -141,7 +138,6 @@
     }
     &-subtitle {
       width: 184px;
-      height: 30px;
       font-size: 18px;
       line-height: 1.67;
     }
@@ -151,6 +147,10 @@
       padding: 0;
       line-height: 1.67;
       font-size: 18px;
+    }
+    &-button-text {
+      padding-left: 27px;
+      padding-right: 27px;
     }
   }
   .item1,
@@ -166,7 +166,5 @@
     grid-column: span 3;
     grid-row: span 1;
     width: 184px;
-    height: 45px;
-    margin-bottom: 60px;
   }
 }

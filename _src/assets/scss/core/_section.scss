@@ -15,12 +15,14 @@
   }
   &-small-text {
     font-family: $fontSecondary;
+    text-transform: capitalize;
     width: 360px;
     height: 30px;
     color: #8ccbea;
   }
   &-title {
     font-family: $fontPrimary, Bold;
+    text-transform: capitalize;
     width: 730px;
     height: 45px;
     font-size: 32px;
@@ -53,6 +55,9 @@
     &:hover {
       box-shadow: 0px 0px 15px 15px #f25e0294;
     }
+    &-text {
+      padding: 0px 65px 0px 65px;
+    }
   }
 }
 
@@ -61,24 +66,20 @@
     &-small-text {
       font-size: 14px;
       width: 216px;
-      height: 30px;
     }
     &-title {
       width: 690px;
-      height: 45px;
       font-size: 26px;
       line-height: 1.73;
     }
     &-text {
-      color: #4a4a4a;
       width: 690px;
-      height: 60px;
-      margin-top: 30px;
-      margin-bottom: 30px;
     }
     &-button {
       width: 91px;
-      height: 45px;
+      &-text {
+        padding: 0px 30px 0px 30px;
+      }
     }
   }
 }
@@ -92,7 +93,6 @@
     &-small-text {
       margin-top: 30px;
       width: 90px;
-      height: 30px;
     }
     &-title {
       width: 290px;
@@ -101,7 +101,6 @@
       line-height: 1.25;
     }
     &-text {
-      color: #4a4a4a;
       width: 290px;
       height: 120px;
       font-size: 18px;
@@ -111,7 +110,9 @@
     }
     &-button {
       width: 76px;
-      height: 45px;
+      &-text {
+        padding: 0px 23px 0px 23px;
+      }
     }
   }
 }
