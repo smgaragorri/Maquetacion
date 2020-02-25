@@ -1,0 +1,38 @@
+.new-section {
+  &-container {
+    height: max-content;
+    background: $colorButtons;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  &-title {
+    color: white;
+  }
+  &-text {
+    color: white;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .new-section {
+    &-container {
+      height: max-content;
+      background: $colorPrimary;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    &-title {
+      color: white;
+      justify-content: flex-start;
+      margin-left: 20px;
+    }
+    &-text {
+      color: white;
+      justify-content: flex-end;
+      margin-right: 20px;
+    }
+  }
+}
